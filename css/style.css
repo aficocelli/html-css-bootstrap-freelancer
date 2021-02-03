@@ -73,7 +73,12 @@
 
 /* /struttura top footer */
 
-
+/* struttura bottom footer */
+.bottom-footer{
+  background-color: #1A252F;
+  color:#fff;
+}
+/* /struttura bottom footer */
 
 /* /struttura footer */
 
