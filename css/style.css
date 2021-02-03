@@ -30,9 +30,7 @@
 
 /* struttura section portfolio */
 
-.portfolio .col-xs-12 h2{
-  text-align: center;
-}
+
 
 .foto{
   background-color:red;
@@ -43,4 +41,24 @@
 }
 /* /struttura section portfolio */
 
+/* struttura section about */
+
+.text-about{
+  max-width: 600px;
+  margin: 0 auto;
+}
+.about{
+  background-color: #1ABC9C;
+  color:#fff;
+}
+/* /struttura section about */
+
+
 /* /struttura main */
+
+
+/* MIX */
+
+.t-centre{
+  text-align: center;
+}
