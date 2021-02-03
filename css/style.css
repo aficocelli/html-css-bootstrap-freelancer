@@ -25,3 +25,22 @@
   width:100%;
 }
 /* struttura header */
+
+/* struttura main */
+
+/* struttura section portfolio */
+
+.portfolio .col-xs-12 h2{
+  text-align: center;
+}
+
+.foto{
+  background-color:red;
+  height:100px;
+  width:100px;
+  border: 1px solid black;
+  margin: 10px auto;
+}
+/* /struttura section portfolio */
+
+/* /struttura main */
