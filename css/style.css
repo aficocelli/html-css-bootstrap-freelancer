@@ -11,4 +11,17 @@
   color:#fff;
   padding: 25px 0;
 }
+
+.hero{
+  background-color: #1ABC9C;
+  padding: 10px 0;
+}
+.img-hero{
+  max-width: 400px;
+  background-color: red;
+  margin: 0 auto;
+}
+.img-hero img{
+  width:100%;
+}
 /* struttura header */
