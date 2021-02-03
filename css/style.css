@@ -17,8 +17,7 @@
   padding: 10px 0;
 }
 .img-hero{
-  max-width: 400px;
-  background-color: red;
+  max-width: 600px;
   margin: 0 auto;
 }
 .img-hero img{
@@ -30,14 +29,16 @@
 
 /* struttura section portfolio */
 
-
-
 .foto{
   background-color:red;
   height:100px;
   width:100px;
   border: 1px solid black;
   margin: 10px auto;
+  line-height: 100px;
+  text-align: center;
+  color:#fff;
+  font-size: 36px;
 }
 /* /struttura section portfolio */
 
@@ -64,21 +65,15 @@
 
 /* struttura footer */
 
-/* struttura top footer */
-
 .top-footer{
   background-color: #282C34;
   color:#fff;
 }
 
-/* /struttura top footer */
-
-/* struttura bottom footer */
 .bottom-footer{
   background-color: #1A252F;
   color:#fff;
 }
-/* /struttura bottom footer */
 
 /* /struttura footer */
 
