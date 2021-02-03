@@ -1,0 +1,14 @@
+/* struttura header */
+
+.top-header{
+  background-color: #2C3E50;
+}
+
+.menu{
+  text-align: right;
+}
+.top-header .container p{
+  color:#fff;
+  padding: 25px 0;
+}
+/* struttura header */
