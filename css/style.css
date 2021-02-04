@@ -18,6 +18,11 @@
 .star-icon i{
   font-size:36px;
 }
+
+/* struttura overlay */
+.foto:hover{
+  background-color: green;
+}
 /* struttura header */
 
 .top-header{
@@ -65,7 +70,7 @@
  /* struttura hero */
 .hero{
   background-color: #1ABC9C;
-  padding: 10px 0;
+  padding: 50px 0;
 }
 .img-hero{
   max-width: 600px;
@@ -92,17 +97,28 @@
 /* struttura main */
 
 /* struttura section portfolio */
+.portfolio h2{
+  font-size: 46px;
+  font-weight: bold;
+  color:#2C3E50;
+}
+.portfolio .star-icon hr{
+  border: 2px solid #2C3E50;
+}
+.portfolio .star-icon i{
+  color:#2C3E50;
+}
 
 .foto{
-  background-color:red;
-  height:100px;
-  width:100px;
-  border: 1px solid black;
-  margin: 10px auto;
-  line-height: 100px;
-  text-align: center;
-  color:#fff;
-  font-size: 36px;
+  max-width:300px;
+  margin: 18px auto;
+  border-radius:10px;
+  border-radius:8px;
+}
+.foto img{
+  width:100%;
+  border-radius:8px;
+
 }
 /* /struttura section portfolio */
 
