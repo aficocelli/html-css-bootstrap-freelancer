@@ -269,10 +269,20 @@
 }
 #social-list li i{
   font-size:24px;
+  color:#fff;
 }
-
+#social-list li:hover i{
+  color:#2C3E50;
+}
+#social-list li:hover{
+  background-color:#fff;
+}
 .link-sito{
   color:#1ABC9C;
+}
+
+.link-sito:hover{
+  color:#117961;
 }
 .bottom-footer{
   background-color: #1A252F;
