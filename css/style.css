@@ -66,11 +66,13 @@
 .top-footer{
   background-color: #282C34;
   color:#fff;
+  padding: 20px 0;
 }
 
 .bottom-footer{
   background-color: #1A252F;
   color:#fff;
+  padding-top: 10px;
 }
 
 /* /struttura footer */
