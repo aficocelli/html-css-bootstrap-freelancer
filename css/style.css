@@ -246,11 +246,34 @@
 /* struttura footer */
 
 .top-footer{
-  background-color: #282C34;
+  background-color: #2C3E50;
   color:#fff;
-  padding: 20px 0;
+  padding: 50px 0;
+}
+.top-footer h3{
+  font-size:28px;
+  font-weight:bold;
+  margin-bottom:20px;
+}
+.top-footer p{
+  font-size:18px;
+}
+#social-list li {
+  display:inline-block;
+  border:1px solid #fff;
+  border-radius:50%;
+  padding:10px;
+  height:50px;
+  width:50px;
+  margin-right:25px;
+}
+#social-list li i{
+  font-size:24px;
 }
 
+.link-sito{
+  color:#1ABC9C;
+}
 .bottom-footer{
   background-color: #1A252F;
   color:#fff;
