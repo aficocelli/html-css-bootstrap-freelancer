@@ -188,9 +188,56 @@
 /* /struttura section about */
 
 /* struttura section contact me */
-.form{
+.contact{
+  padding: 50px 0;
+}
+.contact-me .star-icon hr{
+  border: 2px solid #2C3E50;
+}
+.contact-me .star-icon i{
+  color:#2C3E50;
+}
+.contact-me{
   max-width: 600px;
   margin: 0 auto;
+}
+.contact-me h2{
+  font-size: 46px;
+  font-weight: bold;
+  color:#2C3E50;
+}
+.contact-me form input, .contact-me form textarea{
+  border:none;
+  box-shadow: none;
+  border-radius:0px;
+  border-bottom:1px solid lightgrey;
+  font-size: 24px;
+  padding-bottom:50px;
+  padding-top:25px;
+}
+.contact-me form input:focus, .contact-me form textarea:focus{
+  box-shadow:none;
+}
+.contact-me form textarea{
+  margin-bottom:40px;
+  resize:none;
+}
+
+.contact-me form input::placeholder,
+.contact-me form textarea::placeholder{
+  color:#2C3E50;
+}
+.full-button{
+  color:#fff;
+  background-color:#1ABC9C;
+  padding: 20px 30px;
+  font-size:22px;
+  border-radius:5px;
+}
+
+.contact-me form .full-button:hover{
+  background-color:#159A80;
+  color:#fff;
 }
 /* /struttura section contact me */
 
