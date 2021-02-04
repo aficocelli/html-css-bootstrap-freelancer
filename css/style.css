@@ -11,6 +11,7 @@
 .top-header{
   background-color: #2C3E50;
   text-transform: uppercase;
+  padding: 20px 0;
 
 }
 .menu-link{
@@ -19,7 +20,6 @@
   font-size: 18px;
   font-weight: bold;
   display: inline-block;
-  padding: 35px 0;
 }
 .top-header ul li{
   display: inline-block;
@@ -30,14 +30,19 @@
   text-decoration: none;
   font-size: 26px;
   font-weight: bold;
-  display: inline-block;
-  padding: 30px 0;
   pointer-events: none;
 }
  .top-header a:hover{
   text-decoration: none;
   color:#1ABC9C;
+}
 
+.float_right{
+  float:right;
+}
+
+.top-header button{
+  margin-top:6px;
 }
 
 .hero{
