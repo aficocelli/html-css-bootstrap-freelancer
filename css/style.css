@@ -20,8 +20,28 @@
 }
 
 /* struttura overlay */
-.foto:hover{
-  background-color: green;
+.overlay{
+  position:absolute;
+  top:0;
+  right:0;
+  width:100%;
+  height:100%;
+  background-color: #1ABC9C;
+  opacity: 0.9;
+  border-radius:8px;
+  display: none;
+}
+.overlay i{
+  color:#fff;
+  font-size:64px;
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%, -50%);
+}
+.foto:hover .overlay{
+  display:block;
+
 }
 /* struttura header */
 
@@ -114,6 +134,7 @@
   margin: 18px auto;
   border-radius:10px;
   border-radius:8px;
+  position:relative;
 }
 .foto img{
   width:100%;
