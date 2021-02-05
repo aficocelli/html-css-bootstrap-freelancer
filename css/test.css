@@ -1,0 +1,324 @@
+/* MIX */
+
+.text-white{
+  color:#fff;
+}
+section, .top-footer{
+  padding: 50px 0;
+}
+
+/* colori di sfondo */
+.primary-color{
+  background-color: #2C3E50;
+}
+.secondary-color{
+  background-color: #1ABC9C;
+}
+/* layout text */
+
+h2{
+  font-size: 46px;
+  font-weight: bold;
+}
+a{
+  color: #fff;
+  text-decoration: none;
+}
+
+/* struttura icona stella */
+.star-icon{
+  height:200px;
+  width:200px;
+  position:relative;
+  margin:0 auto;
+}
+.star-icon hr{
+  display:inline-block;
+  margin: 14px auto;
+  width:250px;
+  border: 2px solid #fff;
+  border-radius: 50px;
+  background-color: #2C3E50;
+}
+.star-icon i{
+  font-size:36px;
+  position:absolute;
+  display:inline-block;
+  left:98px;
+  background-color:#1ABC9C;
+  padding:10px;
+  top:-12px;
+}
+
+/* struttura overlay */
+.overlay{
+  position:absolute;
+  top:0;
+  right:0;
+  width:100%;
+  height:100%;
+  background-color: #1ABC9C;
+  opacity: 0.9;
+  border-radius:8px;
+  display: none;
+}
+.overlay i{
+  color:#fff;
+  font-size:64px;
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%, -50%);
+}
+.foto:hover .overlay{
+  display:block;
+}
+/* struttura header */
+
+.top-header{
+  text-transform: uppercase;
+  padding: 20px 0;
+  position:fixed;
+  top:0;
+  right:0;
+  left:0;
+  z-index:2;
+}
+.menu-link{
+  font-size: 18px;
+  font-weight: bold;
+  display: inline-block;
+}
+.top-header ul li{
+  display: inline-block;
+  padding-left:20px;
+}
+.logo{
+  font-size: 24px;
+  font-weight: bold;
+  display: inline-block;
+}
+ .top-header a:hover{
+  text-decoration: none;
+  color:#1ABC9C;
+}
+
+.top-header button{
+  padding: 10px 12px;
+  border-radius:10px;
+  color:#fff;
+  font-weight: bold;
+  border:none;
+}
+
+ /* struttura hero */
+.hero{
+  padding: 100px 0;
+}
+.img-hero{
+  max-width: 600px;
+  height:250px;
+  margin: 10px auto;
+}
+.img-hero img{
+  width:100%;
+  height:100%;
+}
+.hero h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size:54px;
+  margin-top: 40px;
+}
+
+.hero p {
+  font-size:24px;
+}
+/* struttura header */
+
+/* struttura main */
+
+/* struttura section portfolio */
+
+.portfolio h2{
+  color:#2C3E50;
+}
+.portfolio .star-icon hr{
+  border: 2px solid #2C3E50;
+}
+.portfolio .star-icon i{
+  color:#2C3E50;
+}
+
+.foto{
+  max-width:300px;
+  margin: 18px auto;
+  border-radius:10px;
+  border-radius:8px;
+  position:relative;
+}
+.foto img{
+  width:100%;
+  border-radius:8px;
+
+}
+/* /struttura section portfolio */
+
+/* struttura section about */
+
+.text-about{
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.text-about p{
+  font-size: 18px;
+  line-height:24px;
+  padding:0 10px;
+}
+
+/* struttura button about */
+
+.empty-button{
+  background-color: Transparent;
+  border:1.5px solid #fff;
+  padding: 15px 20px;
+  font-size: 22px;
+  margin-top:20px;
+  /* pointer-events: none; */
+}
+.empty-button:hover {
+  background-color:#fff;
+}
+.empty-button i{
+  padding-right:10px;
+}
+
+/* /struttura section about */
+
+/* struttura section contact me */
+.contact-me .star-icon hr{
+  border: 2px solid #2C3E50;
+}
+.contact-me .star-icon i{
+  color:#2C3E50;
+}
+.contact-me{
+  max-width: 600px;
+  margin: 0 auto;
+}
+.contact-me h2{
+  color:#2C3E50;
+}
+.contact-me form input, .contact-me form textarea{
+  border:none;
+  box-shadow: none;
+  border-radius:0px;
+  border-bottom:1px solid lightgrey;
+  font-size: 24px;
+  padding-bottom:50px;
+  padding-top:25px;
+}
+.contact-me form input:focus, .contact-me form textarea:focus{
+  box-shadow:none;
+}
+.contact-me form textarea{
+  margin-bottom:40px;
+  resize:none;
+}
+
+.contact-me form input::placeholder,
+.contact-me form textarea::placeholder{
+  color:#2C3E50;
+}
+.full-button{
+  color:#fff;
+  background-color:#1ABC9C;
+  padding: 20px 30px;
+  font-size:22px;
+  border-radius:5px;
+}
+
+.contact-me form .full-button:hover{
+  background-color:#159A80;
+  color:#fff;
+  border-color: #148f77;
+  1px solid black;
+}
+/* /struttura section contact me */
+
+/* /struttura main */
+
+/* struttura footer */
+
+.top-footer h3{
+  font-size:28px;
+  font-weight:bold;
+  margin-bottom:20px;
+}
+.top-footer p{
+  font-size:18px;
+}
+#social-list li {
+  display:inline-block;
+  border:1px solid #fff;
+  border-radius:50%;
+  padding:10px;
+  height:50px;
+  width:50px;
+  margin-right:25px;
+}
+#social-list li i{
+  font-size:24px;
+}
+#social-list li:hover i{
+  color:#2C3E50;
+}
+#social-list li:hover{
+  background-color:#fff;
+}
+.link-sito{
+  color:#1ABC9C;
+}
+
+.link-sito:hover{
+  color:#117961;
+}
+.bottom-footer{
+  background-color: #1A252F;
+  padding-top: 10px;
+}
+.up-button{
+  background-color:#000;
+  opacity:0.8;
+  position:fixed;
+  right:20px;
+  bottom:20px;
+  border-radius:8px;
+  font-size:24px;
+  display:block;
+}
+#up-link {
+  padding:10px;
+}
+/* /struttura footer */
+
+/* responsive */
+
+/* riduco font su grandezze xs */
+@media screen and (max-width:767px){
+
+  .hero h1{
+    font-size: 44px;
+  }
+
+  .logo {
+    font-size: 18px;
+    padding: 6px 0;
+  }
+
+  .hero p{
+    font-size: 20px;
+  }
+}
+/* /riduco font su grandezze xs */
