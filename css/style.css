@@ -290,3 +290,23 @@ a{
   padding:10px;
 }
 /* /struttura footer */
+
+/* responsive */
+
+/* riduco font su grandezze xs */
+@media screen and (max-width:767px){
+
+  .hero h1{
+    font-size: 44px;
+  }
+
+  .logo {
+    font-size: 18px;
+    padding: 6px 0;
+  }
+
+  .hero p{
+    font-size: 20px;
+  }
+}
+/* /riduco font su grandezze xs */
