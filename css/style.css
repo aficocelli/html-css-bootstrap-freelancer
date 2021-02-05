@@ -41,7 +41,6 @@
 }
 .foto:hover .overlay{
   display:block;
-
 }
 /* struttura header */
 
@@ -71,16 +70,11 @@
   text-decoration: none;
   font-size: 24px;
   font-weight: bold;
-  pointer-events: none;
   display: inline-block;
 }
  .top-header a:hover{
   text-decoration: none;
   color:#1ABC9C;
-}
-
-.float_right{
-  float:right;
 }
 
 .top-header button{
@@ -90,15 +84,9 @@
   font-weight: bold;
   background-color: #1ABC9C;
   border:none;
+  float:right;
 }
 
-.top-header .full-button{
-  padding:10px 10px;
-}
-
-.top-header .full-button:hover{
-  color:#fff;
-}
  /* struttura hero */
 .hero{
   background-color: #1ABC9C;
