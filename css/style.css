@@ -301,5 +301,19 @@
   color:#fff;
   padding-top: 10px;
 }
-
+.up-button{
+  background-color:#000;
+  opacity:0.8;
+  position:fixed;
+  right:20px;
+  bottom:20px;
+  border-radius:8px;
+  font-size:24px;
+  display:block;
+}
+#up-link {
+  color:#fff;
+  text-decoration: none;
+  padding:10px;
+}
 /* /struttura footer */
