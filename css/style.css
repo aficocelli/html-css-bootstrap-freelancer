@@ -3,7 +3,17 @@
 .text-white{
   color:#fff;
 }
+section, .top-footer{
+  padding: 50px 0;
+}
 
+/* colori di sfondo */
+.primary-color{
+  background-color: #2C3E50;
+}
+.secondary-color{
+  background-color: #1ABC9C;
+}
 /* layout text */
 
 h2{
@@ -56,7 +66,6 @@ a{
 /* struttura header */
 
 .top-header{
-  background-color: #2C3E50;
   text-transform: uppercase;
   padding: 20px 0;
   position:fixed;
@@ -89,13 +98,11 @@ a{
   border-radius:10px;
   color:#fff;
   font-weight: bold;
-  background-color: #1ABC9C;
   border:none;
 }
 
  /* struttura hero */
 .hero{
-  background-color: #1ABC9C;
   padding: 100px 0;
 }
 .img-hero{
@@ -122,9 +129,7 @@ a{
 /* struttura main */
 
 /* struttura section portfolio */
-.portfolio{
-  padding: 50px 0;
-}
+
 .portfolio h2{
   color:#2C3E50;
 }
@@ -161,10 +166,6 @@ a{
   line-height:24px;
   padding:0 10px;
 }
-.about{
-  background-color: #1ABC9C;
-  padding: 50px 0;
-}
 
 /* struttura button about */
 
@@ -186,9 +187,6 @@ a{
 /* /struttura section about */
 
 /* struttura section contact me */
-.contact{
-  padding: 50px 0;
-}
 .contact-me .star-icon hr{
   border: 2px solid #2C3E50;
 }
@@ -241,10 +239,6 @@ a{
 
 /* struttura footer */
 
-.top-footer{
-  background-color: #2C3E50;
-  padding: 50px 0;
-}
 .top-footer h3{
   font-size:28px;
   font-weight:bold;
@@ -293,7 +287,6 @@ a{
   display:block;
 }
 #up-link {
-  text-decoration: none;
   padding:10px;
 }
 /* /struttura footer */
