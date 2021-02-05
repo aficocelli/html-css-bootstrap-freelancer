@@ -73,7 +73,6 @@
   font-weight: bold;
   pointer-events: none;
   display: inline-block;
-  padding: 12px 0;
 }
  .top-header a:hover{
   text-decoration: none;
